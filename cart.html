@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Shopping Cart - Appiah Sisters</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo-container">
+      <img src="images/appiah-sisters-logo.png" alt="Appiah Sisters Logo" class="top-bar-logo" />
+    </div>
+    <p>Email: <a href="mailto:appiahsisters@gmail.com">appiahsisters@gmail.com</a></p>
+    <p>Follow Us: <a href="https://instagram.com/Appiah_sisters" target="_blank">Instagram</a></p>
+    <p>Pinterest: <a href="https://pinterest.com/appiahsisters" target="_blank">Pinterest</a></p>
+    <div class="cart-icon-container">
+      <a href="cart.html" class="cart-link">
+        <img src="images/cart-icon.png" alt="Shopping Cart" class="cart-icon" />
+        <span class="cart-item-count">0</span>
+      </a>
+    </div>
+  </div>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="cart-section">
+      <h2><img src="images/bee-icon.png" alt="Bee Icon" class="bee-icon"> Your Shopping Cart <img src="images/bee-icon.png" alt="Bee Icon" class="bee-icon"></h2>
+      
+      <div class="cart-empty-message" style="display: none;">
+        <p>Your cart is currently empty. <a href="shop.html">Start shopping now!</a></p>
+      </div>
+
+      <table class="cart-table" style="display: none;">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          </tbody>
+      </table>
+
+      <div class="cart-summary" style="display: none;">
+        <p>Subtotal: <span class="cart-subtotal">€0.00</span></p>
+        <p>Shipping: <span class="cart-shipping">€3.99</span></p>
+        <p>Total: <span class="cart-total">€0.00</span></p>
+        <button class="btn checkout-btn">Proceed to Checkout with PayPal</button>
+        <p class="checkout-note">Note: A general shipping fee of €3.99 is applied to all orders. Shipping fees may vary based on location and order size, and customers will be notified in case of changes.</p>
+        <p class="checkout-note">This "Proceed to Checkout" button will attempt to send all items to PayPal for unified payment.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Appiah Sisters. Writing, Reading and Journaling is for everyone.</p> <!-- Motto changed here -->
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
